@@ -1,0 +1,35 @@
+{
+	"include": [
+		"./**/*"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"outDir": "./dist",
+		"declaration": true,
+		"allowUnreachableCode": true,
+		"strict": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"preserveSymlinks": true,
+        "skipLibCheck": true,
+		"baseUrl": "."
+	},
+	"angularCompilerOptions": {
+		"skipTemplateCodegen": true,
+		"preserveWhitespaces": false,
+		"enableResourceInlining": true,
+		"fullTemplateTypeCheck": false
+	}
+}

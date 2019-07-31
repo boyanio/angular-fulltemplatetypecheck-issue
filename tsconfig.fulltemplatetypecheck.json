@@ -1,0 +1,9 @@
+{
+    "extends": "tsconfig.base.json",
+    "angularCompilerOptions": {
+		"skipTemplateCodegen": true,
+		"preserveWhitespaces": false,
+		"enableResourceInlining": true,
+		"fullTemplateTypeCheck": true
+	}
+}
